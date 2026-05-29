@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio website for Md Mahfuzur Rahman, photonic IC and hardware engineer.">
+    <title>Md Mahfuzur Rahman</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Md Mahfuzur Rahman home">
+        <span class="brand-mark">MR</span>
+        <span>Md Mahfuzur Rahman</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#work">Work</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Photonic ICs / Hardware / Advanced Packaging</p>
+          <h1><span>Md</span><span>Mahfuzur</span><span>Rahman</span></h1>
+          <p class="lead">
+            Hardware and photonic IC engineer developing scalable optical interconnects,
+            photonic ASIC components, and cleanroom-ready device workflows.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#research">View Research</a>
+            <a class="button secondary" href="assets/Md_Mahfuzur_Rahman_Resume.pdf">Download Resume</a>
+          </div>
+          <dl class="quick-facts" aria-label="Profile highlights">
+            <div>
+              <dt>Current</dt>
+              <dd>Ph.D. ECE, University of Florida</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>3D photonic interconnects</dd>
+            </div>
+            <div>
+              <dt>Tools</dt>
+              <dd>Lumerical, KLayout, Cadence</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-visual" aria-label="Silicon photonic integrated circuit visual">
+          <img src="assets/photonic-hero.png" alt="Macro view of a silicon photonic chip with glowing optical routing paths.">
+        </div>
+      </section>
+
+      <section class="section intro" id="about">
+        <div class="section-label">About</div>
+        <div class="section-body two-column">
+          <div>
+            <h2>Building chip-scale optical routes for dense compute systems.</h2>
+          </div>
+          <div class="prose">
+            <p>
+              I am a graduate researcher at the University of Florida working on photonic
+              ASIC components, ML-guided device design, cleanroom fabrication, chip
+              testing, and packaging for next-generation optical interconnects.
+            </p>
+            <p>
+              My background bridges simulation, fabrication, metrology, and layout:
+              FDTD/MODE/DEVICE workflows, semiconductor processing, SRAM layout in
+              Cadence Virtuoso, and hands-on characterization of fabricated devices.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section news">
+        <div class="section-label">News</div>
+        <div class="section-body">
+          <ol class="timeline compact">
+            <li>
+              <time>2025</time>
+              <span>Received the Standing InnOvation Award from UF Innovate Tech Licensing.</span>
+            </li>
+            <li>
+              <time>2025</time>
+              <span>Conference work on nano-mirror coupler optimization accepted for SPIE25.</span>
+            </li>
+            <li>
+              <time>2024</time>
+              <span>Joined UF as a Graduate Research Assistant in photonic ASIC research.</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="section-label">Research</div>
+        <div class="section-body">
+          <div class="section-heading">
+            <h2>Selected research directions</h2>
+            <p>Low-loss vertical coupling, packaging-aware photonic layouts, and fabrication-informed design loops.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card accent-cyan">
+              <p class="project-meta">Aug 2024 - Present</p>
+              <h3>Integrated Nano-Mirror Couplers and Photonic Wire Bonding</h3>
+              <p>
+                Developing scalable, low-loss vertical optical interconnects for
+                chip-to-chip and wafer-scale packaging.
+              </p>
+              <ul>
+                <li>Optimized NMC geometry across multiple design variants.</li>
+                <li>Reduced coupling loss by 0.17 dB in design studies.</li>
+                <li>Built DOE and failure-analysis checklists for wafer-run execution.</li>
+              </ul>
+            </article>
+            <article class="project-card accent-amber">
+              <p class="project-meta">Aug 2024 - Dec 2024</p>
+              <h3>SRAM Design in Cadence Virtuoso</h3>
+              <p>
+                Designed and validated 45 nm FinFET standard cells and SRAM blocks with
+                signoff-oriented layout checks.
+              </p>
+              <ul>
+                <li>Simulated INV, NAND, NOR, and SRAM behavior across PVT variations.</li>
+                <li>Completed I/O simulations, DRC, and LVS validation.</li>
+                <li>Focused on reliability, layout correctness, and device-level behavior.</li>
+              </ul>
+            </article>
+            <article class="project-card accent-green">
+              <p class="project-meta">Aug 2023 - May 2024</p>
+              <h3>MOSFET, HBT, and Broad Area Laser Fabrication</h3>
+              <p>
+                Fabricated and characterized semiconductor devices through multi-step
+                cleanroom processing and test preparation.
+              </p>
+              <ul>
+                <li>Used photolithography, deposition, etch, and diffusion processes.</li>
+                <li>Measured IV curves and compared sample-level variability.</li>
+                <li>Prepared device summaries for comparative evaluation.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-label">Experience</div>
+        <div class="section-body two-column">
+          <div class="experience-list">
+            <article class="role">
+              <p class="role-date">Aug 2024 - Present</p>
+              <h3>Graduate Research Assistant</h3>
+              <p>UF Herbert Wertheim College of Engineering, University of Florida</p>
+              <p>
+                Developing and testing photonic ASIC components using ML-guided design,
+                cleanroom fabrication, chip testing, and advanced packaging workflows.
+              </p>
+            </article>
+            <article class="role">
+              <p class="role-date">Aug 2023 - July 2024</p>
+              <h3>Graduate Teaching Assistant</h3>
+              <p>Lyle School of Engineering, Southern Methodist University</p>
+              <p>
+                Facilitated lab sessions, supported student troubleshooting, and improved
+                lab completion efficiency.
+              </p>
+            </article>
+          </div>
+          <aside class="skills-panel" aria-label="Skills summary">
+            <h2>Core skills</h2>
+            <div class="skill-group">
+              <h3>EDA and Simulation</h3>
+              <p>Ansys Lumerical FDTD, MODE, DEVICE; Synopsys RSoft; KLayout; Cadence Virtuoso XL, DRC, LVS.</p>
+            </div>
+            <div class="skill-group">
+              <h3>Fabrication</h3>
+              <p>Photolithography, PECVD, diffusion, sputtering, ALD, ICP, DRIE, wet etching.</p>
+            </div>
+            <div class="skill-group">
+              <h3>Testing and Metrology</h3>
+              <p>SEM, FIB, Filmetrics, profilometer, probe station microscopy.</p>
+            </div>
+            <div class="skill-group">
+              <h3>Programming</h3>
+              <p>Python, MATLAB, Verilog, Mathematica, LaTeX.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="publications">
+        <div class="section-label">Output</div>
+        <div class="section-body">
+          <div class="section-heading">
+            <h2>Patents and publications</h2>
+            <p>Research artifacts spanning 3D optical interconnect fabrics, hollow-core routing, and nano-mirror couplers.</p>
+          </div>
+          <div class="output-list">
+            <article>
+              <span class="tag">Patent</span>
+              <h3>Vertical and lateral optical three dimensional interconnect fabric</h3>
+              <p>Inventors: Volker J. Sorger, Hangbo Yang, Md Mahfuzur Rahman. USPTO 19/366,635.</p>
+            </article>
+            <article>
+              <span class="tag">Patent</span>
+              <h3>Hollow Core Vertical Waveguides for Photonic Interconnects and Routing Fabrics</h3>
+              <p>Inventors: Volker J. Sorger, Hangbo Yang, Md Mahfuzur Rahman. USPTO 63/780,669.</p>
+            </article>
+            <article>
+              <span class="tag">Journal</span>
+              <h3>In-substrate Nano-mirror Coupler and Hollow-core Vertical Waveguides for High-density 3D Photonic Routing Fabrics</h3>
+              <p>Md Mahfuzur Rahman, Hangbo Yang, Hao Wang, Volker J. Sorger. JL T26.</p>
+            </article>
+            <article>
+              <span class="tag">Conference</span>
+              <h3>Optimizing Nano-Mirror Coupler Design for High-Efficiency Optical Interconnects</h3>
+              <p>Md Mahfuzur Rahman, Hangbo Yang, Nicola Peserico, Hao Wang, Volker J. Sorger. SPIE25.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education">
+        <div class="section-label">Education</div>
+        <div class="section-body education-grid">
+          <article>
+            <p class="role-date">Aug 2024 - Dec 2027</p>
+            <h3>Ph.D. in Electrical and Computer Engineering</h3>
+            <p>University of Florida, Gainesville, FL. GPA: 3.71 ongoing.</p>
+          </article>
+          <article>
+            <p class="role-date">Graduated Dec 16, 2025</p>
+            <h3>M.S. in Electrical and Computer Engineering</h3>
+            <p>University of Florida, Gainesville, FL. GPA: 3.61.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-label">Contact</div>
+        <div class="section-body contact-layout">
+          <div>
+            <h2>Let us talk photonic interconnects, hardware design, or fabrication workflows.</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:emrahman3@ufl.edu">emrahman3@ufl.edu</a>
+            <a href="tel:+14693160274">(469) 316-0274</a>
+            <a href="https://orcid.org/0009-0005-3241-4667">ORCID</a>
+            <a href="https://www.linkedin.com/in/md-mahfuzur-rahman-52a2921a7/">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Md Mahfuzur Rahman</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
